@@ -1,0 +1,33 @@
+project:
+  type: book
+  output-dir: _build
+
+book:
+  title: "Maor's AI Handbook"
+  author: "Maor Dora"
+  date: last-modified
+  # הגדרת סרגל הצד והפרקים
+  sidebar:
+    logo: logo.png
+    style: dock # עיצוב מודרני לסרגל הצד
+    search: true
+  # כאן אתה מוסיף את הפרקים לפי הסדר
+  chapters:
+    - index.md
+    - chapter1.ipynb
+    # בעתיד תוסיף כאן:
+    # - chapters/chapter2.ipynb
+
+format:
+  html:
+    theme: cosmo      # ערכת נושא נקייה ומקצועית
+    toc: true         # תוכן עניינים פנימי לכל דף
+    mainfont: "Segoe UI, sans-serif" # פונט קריא
+    code-copy: true   # כפתור העתקה לקוד
+    
+    # שליטה מלאה על הפוטר (בלי פופ-אפים!)
+    page-footer: 
+      left: "Copyright 2025, Maor Dora"
+      right: 
+        - text: "GitHub"
+          href: https://github.com/MaorDora

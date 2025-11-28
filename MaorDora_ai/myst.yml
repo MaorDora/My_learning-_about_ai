@@ -1,12 +1,19 @@
 version: 1
 project:
-  id: 12b98522-b9d8-4b7b-af31-f6fc343ccd47
-  title: הספר של מאור על AI
+  id: maor-ai-book
+  title: Maor's AI Handbook
   authors:
     - name: Maor Dora
   github: https://github.com/MaorDora/My_learning-_about_ai
-  # השורה הזו קריטית - היא אומרת למערכת ש-index.md הוא העמוד הראשי
   index: index.md
+  toc:
+    - file: index.md
+    - file: chapter1.ipynb
 
 site:
   template: book-theme
+  # כאן אנחנו מגדירים את העיצוב המקצועי
+  options:
+    logo: logo.png
+    favicon: logo.png
+    css: static/custom.css

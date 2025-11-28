@@ -12,8 +12,10 @@ project:
 
 site:
   template: book-theme
-  # כאן אנחנו מגדירים את העיצוב המקצועי
   options:
     logo: logo.png
+    # השורה הזו אחראית על האייקון הקטן בדפדפן:
     favicon: logo.png
-    css: static/custom.css
+    
+    # זה טוען את קובץ העיצוב שלנו:
+    css: static/style.css

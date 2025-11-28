@@ -1,3 +1,8 @@
-.myst-footer-links {
+/* מעלים את הפוטר ואת הקישורים של MyST */
+
+.myst-footer,
+footer,
+.footer,
+.made-with-myst {
     display: none !important;
 }

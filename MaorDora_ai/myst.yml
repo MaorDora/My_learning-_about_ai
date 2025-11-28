@@ -1,0 +1,12 @@
+version: 1
+project:
+  id: 12b98522-b9d8-4b7b-af31-f6fc343ccd47
+  title: הספר של מאור על AI
+  authors:
+    - name: Maor Dora
+  github: https://github.com/MaorDora/My_learning-_about_ai
+  # השורה הזו קריטית - היא אומרת למערכת ש-index.md הוא העמוד הראשי
+  index: index.md
+
+site:
+  template: book-theme

@@ -14,8 +14,12 @@ site:
   template: book-theme
   options:
     logo: logo.png
-    # השורה הזו אחראית על האייקון הקטן בדפדפן:
     favicon: logo.png
     
-    # זה טוען את קובץ העיצוב שלנו:
+    # טוען את קובץ העיצוב (אם הוא עזר למשהו אחר)
     css: static/style.css
+    
+    # --- הנה החלק החדש והחשוב ---
+    # טוען את הסקריפט שמוחק את הפוטר
+    js: 
+      - static/clean_footer.js

@@ -15,11 +15,7 @@ site:
   options:
     logo: logo.png
     favicon: logo.png
-    
-    # טוען את קובץ העיצוב (אם הוא עזר למשהו אחר)
-    css: static/style.css
-    
-    # --- הנה החלק החדש והחשוב ---
-    # טוען את הסקריפט שמוחק את הפוטר
+    # כאן היה התיקון הקריטי - הפניה לקובץ הנכון
+    css: static/custom.css
     js: 
       - static/clean_footer.js

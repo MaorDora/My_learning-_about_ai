@@ -17,6 +17,11 @@ book:
     - chapter1.ipynb
     # בעתיד תוסיף כאן:
     # - chapters/chapter2.ipynb
+execute:
+  freeze: false  # מכריח הרצה מחדש של הקוד תמיד
+  enabled: true
+  echo: true     # מציג את הקוד
+  warning: false # מסתיר אזהרות טכניות מכוערות אם יש
 
 format:
   html:
@@ -31,10 +36,7 @@ format:
       right: 
         - text: "GitHub"
           href: https://github.com/MaorDora
-execute:
-  enabled: true
-  echo: true    # מציג את הקוד עצמו
-  warning: false # מסתיר אזהרות טכניות מכוערות אם יש
+
 # --- התוספת החדשה למטה ---
 jupyter:
   python: "C:/Users/logmar_pm/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python.exe"

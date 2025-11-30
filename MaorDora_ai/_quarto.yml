@@ -9,7 +9,7 @@ book:
   # הגדרת סרגל הצד והפרקים
   sidebar:
     logo: logo.png
-    style: dock # עיצוב מודרני לסרגל הצד
+    style: docked # עיצוב מודרני לסרגל הצד
     search: true
   # כאן אתה מוסיף את הפרקים לפי הסדר
   chapters:
@@ -31,3 +31,10 @@ format:
       right: 
         - text: "GitHub"
           href: https://github.com/MaorDora
+execute:
+  enabled: true
+  echo: true    # מציג את הקוד עצמו
+  warning: false # מסתיר אזהרות טכניות מכוערות אם יש
+# --- התוספת החדשה למטה ---
+jupyter:
+  python: "C:/Users/logmar_pm/AppData/Local/Microsoft/WindowsApps/PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0/python.exe"
